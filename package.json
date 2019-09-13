@@ -1,0 +1,46 @@
+{
+  "name": "example-notifier",
+  "display_name": "Example Notifier",
+  "version": "0.0.1",
+  "description": "Example notifier add-on for Mozilla WebThings Gateway",
+  "author": "Mozilla IoT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "mozilla",
+    "iot",
+    "notifier",
+    "example"
+  ],
+  "homepage": "https://github.com/mozilla-iot/example-notifier",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla-iot/example-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mozilla-iot/example-notifier/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0"
+  },
+  "files": [
+    "LICENSE",
+    "SHA256SUMS",
+    "example-notifier.js",
+    "index.js",
+    "manifest.json"
+  ],
+  "moziot": {
+    "api": {
+      "min": 2,
+      "max": 2
+    },
+    "type": "notifier",
+    "plugin": true,
+    "exec": "{nodeLoader} {path}"
+  }
+}
