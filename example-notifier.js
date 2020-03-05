@@ -3,6 +3,7 @@ const {
   Notifier,
   Outlet,
 } = require('gateway-addon');
+const manifest = require('./manifest.json');
 
 /**
  * An example outlet
@@ -45,8 +46,8 @@ class ExampleOutlet extends Outlet {
  * Instantiates one example outlet
  */
 class ExampleNotifier extends Notifier {
-  constructor(addonManager, manifest) {
-    super(addonManager, 'example', manifest.name);
+  constructor(addonManager) {
+    super(addonManager, 'example', manifest.id);
 
     addonManager.addNotifier(this);
 

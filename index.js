@@ -10,6 +10,6 @@
 
 const ExampleNotifier = require('./example-notifier');
 
-module.exports = (addonManager, manifest) => {
-  new ExampleNotifier(addonManager, manifest);
+module.exports = (addonManager) => {
+  new ExampleNotifier(addonManager);
 };
