@@ -7,12 +7,6 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "keywords": [
-    "mozilla",
-    "webthings",
-    "notifier",
-    "example"
-  ],
   "homepage": "https://github.com/mozilla-iot/example-notifier",
   "license": "MPL-2.0",
   "repository": {
