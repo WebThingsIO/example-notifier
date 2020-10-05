@@ -1,6 +1,6 @@
 {
-  "author": "Mozilla IoT",
-  "description": "Example notifier add-on for Mozilla WebThings Gateway",
+  "author": "WebThingsIO",
+  "description": "Example notifier add-on for WebThings Gateway",
   "gateway_specific_settings": {
     "webthings": {
       "exec": "{nodeLoader} {path}",
@@ -9,11 +9,11 @@
       "strict_min_version": "0.10.0"
     }
   },
-  "homepage_url": "https://github.com/mozilla-iot/example-notifier",
+  "homepage_url": "https://github.com/WebThingsIO/example-notifier",
   "id": "example-notifier",
   "license": "MPL-2.0",
   "manifest_version": 1,
   "name": "Example Notifier",
   "short_name": "Example",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
